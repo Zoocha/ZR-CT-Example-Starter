@@ -1,0 +1,18 @@
+uuid: b9e45e30-10ad-42a5-a58f-689dee86a2ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Zoocha Example'
+type: zoocha_example
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

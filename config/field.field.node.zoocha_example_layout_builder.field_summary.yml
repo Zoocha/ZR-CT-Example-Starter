@@ -1,0 +1,19 @@
+uuid: e580c310-cfc8-4991-bda0-a33e7269457e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.zoocha_example_layout_builder
+id: node.zoocha_example_layout_builder.field_summary
+field_name: field_summary
+entity_type: node
+bundle: zoocha_example_layout_builder
+label: Summary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

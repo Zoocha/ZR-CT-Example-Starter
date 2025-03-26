@@ -1,0 +1,117 @@
+uuid: c98bbe46-5e37-45ac-8d61-0130377ef6c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.zoocha_example_layout_builder.field_simple_date
+    - field.field.node.zoocha_example_layout_builder.field_summary
+    - field.field.node.zoocha_example_layout_builder.field_tags
+    - node.type.zoocha_example_layout_builder
+  module:
+    - datetime
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          cb6c3bc0-708b-4532-8950-348f49329a27:
+            uuid: cb6c3bc0-708b-4532-8950-348f49329a27
+            region: content
+            configuration:
+              id: 'field_block:node:zoocha_example_layout_builder:field_tags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          042d3593-9fa5-4829-abe3-ca0a45531eca:
+            uuid: 042d3593-9fa5-4829-abe3-ca0a45531eca
+            region: content
+            configuration:
+              id: 'extra_field_block:node:zoocha_example_layout_builder:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+          427de69b-d88c-4ae3-ab2c-d7338470280f:
+            uuid: 427de69b-d88c-4ae3-ab2c-d7338470280f
+            region: content
+            configuration:
+              id: 'field_block:node:zoocha_example_layout_builder:field_summary'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: basic_string
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          e1045c0b-e7d4-4d23-bd93-427d4eb8bf28:
+            uuid: e1045c0b-e7d4-4d23-bd93-427d4eb8bf28
+            region: content
+            configuration:
+              id: 'field_block:node:zoocha_example_layout_builder:field_simple_date'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: datetime_default
+                label: above
+                settings:
+                  timezone_override: ''
+                  format_type: medium
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+        third_party_settings: {  }
+id: node.zoocha_example_layout_builder.default
+targetEntityType: node
+bundle: zoocha_example_layout_builder
+mode: default
+content:
+  field_simple_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_summary:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

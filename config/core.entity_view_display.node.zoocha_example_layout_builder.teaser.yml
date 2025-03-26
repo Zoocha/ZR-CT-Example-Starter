@@ -1,0 +1,35 @@
+uuid: db027a07-700a-49b3-809c-41ac22a0174e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.zoocha_example_layout_builder.field_simple_date
+    - field.field.node.zoocha_example_layout_builder.field_summary
+    - field.field.node.zoocha_example_layout_builder.field_tags
+    - field.field.node.zoocha_example_layout_builder.layout_builder__layout
+    - node.type.zoocha_example_layout_builder
+  module:
+    - user
+id: node.zoocha_example_layout_builder.teaser
+targetEntityType: node
+bundle: zoocha_example_layout_builder
+mode: teaser
+content:
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_simple_date: true
+  field_summary: true
+  layout_builder__layout: true

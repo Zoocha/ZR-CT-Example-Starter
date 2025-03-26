@@ -1,0 +1,14 @@
+name: 'Zoocha CT Example starter'
+description: 'This recipe installs an example Zoocha Example content type with some pre-defined fields.'
+type: 'Content Type'
+
+recipes:
+  - zoocha-editorial-recipe
+  - zr-layout-builder-bundle
+
+install:
+  - workflows
+  - content_moderation
+
+config:
+  strict: false

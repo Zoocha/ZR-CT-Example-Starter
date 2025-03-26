@@ -1,0 +1,65 @@
+uuid: b14acf8e-c39a-4ece-8271-dd9e7a842441
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.zoocha_example.field_content
+    - field.field.node.zoocha_example.field_simple_date
+    - field.field.node.zoocha_example.field_summary
+    - field.field.node.zoocha_example.field_tags
+    - node.type.zoocha_example
+  module:
+    - datetime
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: ygscMuA8rKIPztZhVjzfCorw1ncMLHnL_0QiKJsbXlE
+id: node.zoocha_example.default
+targetEntityType: node
+bundle: zoocha_example
+mode: default
+content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  field_content:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_simple_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_summary:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

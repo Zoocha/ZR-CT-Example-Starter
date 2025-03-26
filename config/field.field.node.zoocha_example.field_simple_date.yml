@@ -1,0 +1,21 @@
+uuid: c73d9fb7-4047-4f8a-b40d-50a6fae86dac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_simple_date
+    - node.type.zoocha_example
+  module:
+    - datetime
+id: node.zoocha_example.field_simple_date
+field_name: field_simple_date
+entity_type: node
+bundle: zoocha_example
+label: 'Simple Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

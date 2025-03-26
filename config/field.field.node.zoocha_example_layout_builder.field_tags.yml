@@ -1,0 +1,29 @@
+uuid: 64436c7a-65e6-4abe-baa7-10fed7b0ddd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.zoocha_example_layout_builder
+    - taxonomy.vocabulary.tags
+id: node.zoocha_example_layout_builder.field_tags
+field_name: field_tags
+entity_type: node
+bundle: zoocha_example_layout_builder
+label: Tags
+description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: _none
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

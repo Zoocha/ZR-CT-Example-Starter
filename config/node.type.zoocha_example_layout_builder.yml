@@ -1,0 +1,18 @@
+uuid: 77093577-0c1b-4f13-9484-8fca5550107e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Zoocha Example with Layout Builder'
+type: zoocha_example_layout_builder
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

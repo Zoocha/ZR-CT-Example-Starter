@@ -1,0 +1,33 @@
+uuid: 3f92403d-5d7c-4dec-a2e0-e05a1473afa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.zoocha_example.field_simple_date
+    - field.field.node.zoocha_example.field_summary
+    - field.field.node.zoocha_example.field_tags
+    - node.type.zoocha_example
+  module:
+    - user
+id: node.zoocha_example.teaser
+targetEntityType: node
+bundle: zoocha_example
+mode: teaser
+content:
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_simple_date: true
+  field_summary: true
