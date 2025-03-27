@@ -8,7 +8,15 @@
         "drupal/ckeditor5_plugin_pack": "^1.3",
         "zr/zr-editorial-bundle": "^1.0",
         "zr/zr-layout-builder-bundle": "^1.0",
-        "zr/zr-cb-accordion" : "^1.0"
+        "zr/zr-cb-accordion" : "^1.0",
+        "zr/zr-cb-cards" : "^1.0",
+        "zr/zr-cb-cta" : "^1.0",
+        "zr/zr-cb-copy-content" : "^1.0",
+        "zr/zr-cb-embedded-view" : "^1.0",
+        "zr/zr-cb-hero" : "^1.0",
+        "zr/zr-cb-links" : "^1.0",
+        "zr/zr-cb-media-content" : "^1.0",
+        "zr/zr-cb-webform" : "^1.0"
     },
     "authors": [
         {
