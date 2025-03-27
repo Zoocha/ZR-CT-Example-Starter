@@ -5,6 +5,7 @@ type: 'Content Type'
 recipes:
   - zr-editorial-bundle
   - zr-layout-builder-bundle
+  - zr-cb-accordion
 
 install:
   - paragraphs
