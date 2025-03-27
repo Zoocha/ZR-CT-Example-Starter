@@ -6,7 +6,14 @@ recipes:
   - zr-editorial-bundle
   - zr-layout-builder-bundle
   - zr-cb-accordion
-
+  - zr-cb-cards
+  - zr-cb-cta
+  - zr-cb-copy-content
+  - zr-cb-embedded-view
+  - zr-cb-hero
+  - zr-cb-links
+  - zr-cb-media-content
+  - zr-cb-webform
 install:
   - paragraphs
   - workflows
