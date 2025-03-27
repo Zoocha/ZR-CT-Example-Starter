@@ -1,0 +1,19 @@
+{
+    "name": "zr/zr-ct-example",
+    "description": "CKE5 Recipe Bundle",
+    "type": "drupal-recipe",
+    "require": {
+        "php": ">=8.1",
+        "drupal/editor_advanced_link": "^2.2",
+        "drupal/ckeditor5_plugin_pack": "^1.3",
+        "zr/zr-editorial-bundle": "^1.0",
+        "zr/zr-layout-builder-bundle": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Arisha Salman",
+            "email": "webifyworld2020@gmail.com"
+        }
+    ],
+    "license": "GPL-2.0-or-later"
+}

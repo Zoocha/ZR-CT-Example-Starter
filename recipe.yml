@@ -3,7 +3,7 @@ description: 'This recipe installs an example Zoocha Example content type with s
 type: 'Content Type'
 
 recipes:
-  - zoocha-editorial-recipe
+  - zr-editorial-bundle
   - zr-layout-builder-bundle
 
 install:
