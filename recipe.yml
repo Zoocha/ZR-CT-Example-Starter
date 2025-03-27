@@ -5,6 +5,7 @@ type: 'Content Type'
 recipes:
   - zr-editorial-bundle
   - zr-layout-builder-bundle
+  - cke5-recipe
   - zr-cb-accordion
   - zr-cb-cards
   - zr-cb-cta

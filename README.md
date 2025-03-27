@@ -1,6 +1,6 @@
-# Zoocha CT Example Starter Recipe Installation Guide
+# ZR CT Example Starter Recipe Installation Guide
 
-To install the Zoocha CT Example Starter recipe, follow the steps below:
+To install the ZR CT Example Starter recipe, follow the steps below:
 
 1. Open your terminal.
 2. Navigate to your project directory. 
@@ -14,4 +14,4 @@ To install the Zoocha CT Example Starter recipe, follow the steps below:
     ddev drush recipe recipes/custom/zr-ct-example
     ```
 
-This command will execute the Zoocha CT Example Starter recipe installation.
+This command will execute the ZR CT Example Starter recipe installation.
