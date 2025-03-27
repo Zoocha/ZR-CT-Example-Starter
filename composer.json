@@ -1,6 +1,6 @@
 {
     "name": "zr/zr-ct-example",
-    "description": "CKE5 Recipe Bundle",
+    "description": "Zoocha CT Example",
     "type": "drupal-recipe",
     "require": {
         "php": ">=8.1",
