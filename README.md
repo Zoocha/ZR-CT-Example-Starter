@@ -8,10 +8,13 @@ To install the ZR CT Example Starter recipe, follow the steps below:
 ```sh
 "web/recipes/custom/{$name}": ["type:drupal-recipe"]
 ```
-3. Run the following command:
+4. Run the following command:
 
     ```sh
     ddev drush recipe recipes/custom/zr-ct-example
     ```
-
+5. Run the below command to install CKE5 configs
+    ```sh
+    ddev drush cim --partial --source=recipes/custom/cke5-recipe/config -y
+    ```
 This command will execute the ZR CT Example Starter recipe installation.
