@@ -4,10 +4,9 @@
     "type": "drupal-recipe",
     "require": {
         "php": ">=8.1",
-        "drupal/editor_advanced_link": "^2.2",
         "zr/zr-editorial-bundle": "^1.0",
         "zr/zr-layout-builder-bundle": "^1.0",
-        "zr/cke5-recipe": "^1.0",
+        "zr/zr-cke5-recipe": "^1.0",
         "zr/zr-cb-accordion" : "^1.0",
         "zr/zr-cb-cards" : "^1.0",
         "zr/zr-cb-cta" : "^1.0",

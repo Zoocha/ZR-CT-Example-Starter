@@ -15,6 +15,6 @@ To install the ZR CT Example Starter recipe, follow the steps below:
     ```
 5. Run the below command to install CKE5 configs
     ```sh
-    ddev drush cim --partial --source=recipes/custom/cke5-recipe/config -y
+    ddev drush cim --partial --source=recipes/custom/zr-cke5-recipe/config -y
     ```
 This command will execute the ZR CT Example Starter recipe installation.
