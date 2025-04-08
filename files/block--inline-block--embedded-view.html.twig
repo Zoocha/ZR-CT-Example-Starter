@@ -40,10 +40,9 @@
   {{ title_prefix }}
   {{ title_suffix }}
   {% block content %}
- 
-  {% set bg_color = content['#block_content'].field_background_colour.value[0]['color'] %}
-    <div{{ content_attributes.addClass('content') }} style="background-color: {{ bg_color }}">
-      {{ content|without('field_background_colour') }}
+
+    <div{{ content_attributes.addClass('content') }}>
+      {{ content }}
     </div>
   {% endblock %}
 </div>
